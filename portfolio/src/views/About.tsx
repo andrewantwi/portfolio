@@ -1,5 +1,5 @@
 // assets
-import aboutPageImg from "../assets/about-me-page.svg";
+import aboutPageImg from "../assets/_.jpeg";
 import aboutIllustration from "../assets/about-illustration.svg";
 import facebookIcon from "../assets/facebook-icon.svg";
 import instagramIcon from "../assets/instagram-icon.svg";
@@ -7,14 +7,7 @@ import twitterIcon from "../assets/twitter-icon.svg";
 import youtubeIcon from "../assets/youtube-icon.svg";
 
 // components
-import { SocialMediaIcon, Reveal } from "../components";
-
-// framer-motion
-import { motion } from "framer-motion";
-
-// utils
-import { fadeIn, scale } from "../utils/variants";
-import { transition } from "../utils/transition";
+import { SocialMediaIcon } from "../components";
 
 const About = () => {
   return (
@@ -34,10 +27,7 @@ const About = () => {
             About <span className="text-secondary">me</span>
           </h1>
           <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            aperiam consequuntur placeat provident enim sed neque, ad cumque
-            quod commodi repellat error voluptates numquam harum illum debitis
-            ipsa hic nam?
+            Creative,self-driven Software Engineer
           </p>
           <div className="flex items-center justify-center xl:justify-start gap-6">
             <SocialMediaIcon imgSrc={facebookIcon} title="Facebook" />

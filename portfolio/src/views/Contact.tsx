@@ -1,5 +1,5 @@
 // assets
-import contactPageImg from "../assets/contact-page.svg";
+import contactPageImg from "../assets/_.jpeg";
 import contactIllustration from "../assets/contact-illustration.svg";
 
 // components

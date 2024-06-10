@@ -2,20 +2,14 @@
 import { useState } from "react";
 
 // assets
-import projectsPageImg from "../assets/projects-page.svg";
+import projectsPageImg from "../assets/_.jpeg";
 
 // components
-import { Button, Card, Reveal } from "../components";
+import { Button, Card } from "../components";
 
 // data
 import { projects } from "../data";
 
-// framer-motion
-import { motion } from "framer-motion";
-
-// utils
-import { fadeIn } from "../utils/variants";
-import { transition } from "../utils/transition";
 type Category = "web" | "uiUx";
 
 const Projects = () => {
