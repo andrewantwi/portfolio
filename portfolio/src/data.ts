@@ -1,7 +1,7 @@
 import uiUxOne from "./assets/ui-ux-project-one.svg";
 import uiUxTwo from "./assets/ui-ux-project-two.svg";
 import uiUxThree from "./assets/ui-ux-project-three.svg";
-import webOne from "./assets/web-project-one.jpeg";
+import webOne from "./assets/ecommerce.png";
 import webTwo from "./assets/web-project-two.jpeg";
 import webThree from "./assets/web-project-three.jpeg";
 
@@ -10,6 +10,7 @@ interface Projects {
   category: string;
   img: string;
   title: string;
+  link: string;
 }
 
 export const projects: Projects[] = [
@@ -18,35 +19,41 @@ export const projects: Projects[] = [
     category: "uiUx",
     img: uiUxOne,
     title: "UI/UX Web Template",
+    link: "",
   },
   {
     id: 1,
     category: "uiUx",
     img: uiUxTwo,
     title: "UI/UX Tablet Template",
+    link: "",
   },
   {
     id: 2,
     category: "uiUx",
     img: uiUxThree,
     title: "Solar System App Design",
+    link: "",
   },
   {
     id: 3,
     category: "web",
     img: webOne,
-    title: "Interior Design Website",
+    title: "Ecommerce website",
+    link: "https://e-commerce-andrew.vercel.app",
   },
   {
     id: 4,
     category: "web",
     img: webTwo,
     title: "Agency Landing Page",
+    link: "",
   },
   {
     id: 5,
     category: "web",
     img: webThree,
     title: "Crypto Landing Page",
+    link: "",
   },
 ];

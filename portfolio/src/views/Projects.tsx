@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 // assets
-import projectsPageImg from "../assets/_.jpeg";
+import projectsPageImg from "../assets/desmumtz14.jpg";
 
 // components
 import { Button, Card } from "../components";
@@ -13,7 +13,7 @@ import { projects } from "../data";
 type Category = "web" | "uiUx";
 
 const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState<Category>("uiUx");
+  const [activeCategory, setActiveCategory] = useState<Category>("web");
 
   const filterProjects = () => {
     if (activeCategory === "uiUx") {
@@ -40,21 +40,23 @@ const Projects = () => {
           </h1>
           <div className="flex items-center justify-center gap-4  xl:justify-start flex-col sm:flex-row">
             <Button
-              secondary={activeCategory === "uiUx" ? true : false}
-              onClick={() => setActiveCategory("uiUx")}
-            >
-              UI/UX
-            </Button>
-            <Button
               secondary={activeCategory === "web" ? true : false}
               onClick={() => setActiveCategory("web")}
             >
               Web design
             </Button>
+            <Button
+              secondary={activeCategory === "uiUx" ? true : false}
+              onClick={() => setActiveCategory("uiUx")}
+            >
+              UI/UX
+            </Button>
           </div>
           <div className="flex gap-12 mt-12 flex-wrap justify-center">
             {filterProjects().map((items) => (
-              <Card imgSrc={items.img} title={items.title} />
+              <a href={items.link}>
+                <Card imgSrc={items.img} title={items.title} />
+              </a>
             ))}
           </div>
         </div>

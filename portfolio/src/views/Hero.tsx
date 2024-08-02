@@ -1,5 +1,5 @@
 // assets
-import homePageImg from "../assets/_.jpeg";
+import homePageImg from "../assets/desmumtz14.jpg";
 import homePageIllustation from "../assets/hero-illustration.svg";
 import downloadIcon from "../assets/download-btn-icon.svg";
 

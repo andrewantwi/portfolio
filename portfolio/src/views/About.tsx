@@ -1,5 +1,5 @@
 // assets
-import aboutPageImg from "../assets/_.jpeg";
+import aboutPageImg from "../assets/desmumtz14.jpg";
 import aboutIllustration from "../assets/about-illustration.svg";
 import facebookIcon from "../assets/facebook-icon.svg";
 import instagramIcon from "../assets/instagram-icon.svg";
