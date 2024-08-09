@@ -8,7 +8,7 @@ module.exports = {
         secondary: "#00ADB5",
         textPrimary: "#EEE",
         textSecondary: "rgba(238, 238, 238, 0.75)",
-        accent: "rgba(57, 62, 70, 0.75)",
+        accent: "rgba(57, 62, 70)",
         hoverSecondary: "#027378",
         hoverPrimary: "#292d33",
         divider: "rgba(238, 238, 238, 0.10)",
